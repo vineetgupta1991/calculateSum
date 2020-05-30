@@ -1,20 +1,9 @@
 package com.fortumo.test;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.message.BasicNameValuePair;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import static java.lang.Thread.sleep;
 
@@ -36,7 +25,7 @@ public class TestApplication {
 
            // Threads doesn't guarantees the order of execution. The sleep method can be removed and tested.
             // The sum shown in console need not be calculated as per the order of commands array defined.
-            sleep(5000);
+//            sleep(5000);
         }
     }
 }
