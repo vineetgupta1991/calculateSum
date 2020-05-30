@@ -25,7 +25,7 @@ public class TestApplication {
 
            // Threads doesn't guarantees the order of execution. The sleep method can be removed and tested.
             // The sum shown in console need not be calculated as per the order of commands array defined.
-//            sleep(5000);
+            sleep(5000);
         }
     }
 }
