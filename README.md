@@ -8,7 +8,7 @@ Calculate sum on simple java web server using Socket
 
 ## Task
 
-- Under package `com.fortump.httpserver`, execute the main class HttpServer.java.
+- Under package `com.fortumo.httpserver`, execute the main class HttpServer.java.
   This will start the server on port 8081.
 - Now, try executing the curl commands on different terminals with different or same payloads
   like below <br/>
